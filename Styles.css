@@ -1,0 +1,163 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4be;
+    color: #333;
+    background-image: url("GODS.jpg"); /* Your image URL */
+    background-size: cover; /* Ensures the image covers the full screen */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+/* Header styles */
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Section styling */
+section {
+    padding: 40px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for readability */
+}
+
+section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+section .image-gallery {
+    display: flex;
+    gap: 20px;
+}
+
+section .image-gallery img {
+    width: 30%;
+    border-radius: 8px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #492424;
+    color: #ffffffa9;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8f6767;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddddddcb;
+}
+
+table th {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f200;
+}
+
+table tr:hover {
+    background-color: #ddddddb7;
+}
+
+/* Link Styling */
+a:link, a:visited {
+    background-color: #f44336;
+    color: rgba(255, 255, 255, 0.753);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
